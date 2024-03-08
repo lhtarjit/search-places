@@ -16,7 +16,7 @@ const SearchPlaces = () => {
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
-  const [limit, setLimit] = useState(5);
+  const [limit, setLimit] = useState(3);
 
   useEffect(() => {
     document.addEventListener("keydown", handleFocusShortcut);
