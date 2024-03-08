@@ -85,7 +85,7 @@ const SearchPlaces = () => {
   }, [currentPage, debounceLimit, debounceValue]);
 
   return (
-    <div>
+    <div className="main-component">
       <SearchBox onSearch={handleSearch} query={query} setQuery={setQuery} />
       <Table data={data} loading={loading} />
       <div className="pagination-component">
